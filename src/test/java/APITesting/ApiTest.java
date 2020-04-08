@@ -12,7 +12,7 @@ public class ApiTest {
     //Simple get request for getting wheather request by City name
     //Status Code : 200
 
-    //@Test
+    @Test
     public void Test_01() {
 
         Response resp = when().
@@ -24,7 +24,7 @@ public class ApiTest {
     }
 
     //Status Code : 401
-    //@Test
+    @Test
     public void Test_02() {
 
         Response resp = when().
@@ -38,7 +38,7 @@ public class ApiTest {
 
 
     //How to use parameters with rest assured
-    //@Test
+    @Test
     public void Test_03() {
 
         Response resp = given().
@@ -60,7 +60,7 @@ public class ApiTest {
 
 
     //Asset our testcase in Rest assured api
-    // @Test
+     @Test
     public void Test_04() {
 
         given().
@@ -75,7 +75,7 @@ public class ApiTest {
     }
 
 
-    //@Test
+    @Test
     public void Test_05() {
 
         Response resp = given().
@@ -90,7 +90,7 @@ public class ApiTest {
     }
 
 
-    // @Test
+    @Test
     public void Test_06() {
 
 
@@ -108,7 +108,7 @@ public class ApiTest {
     }
 
 
-    //@Test
+    @Test
     public void Test_07() {
 
 
@@ -126,7 +126,7 @@ public class ApiTest {
     }
 
 
-    //@Test
+    @Test
     public void Test_08() {
 
 
@@ -146,7 +146,7 @@ public class ApiTest {
     }
 
 
-    //@Test
+    @Test
     public void Test_09() {
 
 
